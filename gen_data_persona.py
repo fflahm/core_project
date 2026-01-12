@@ -4,11 +4,10 @@ import asyncio
 from openai import OpenAI
 import edge_tts
 from openai import APIConnectionError
-import config
 import random
+import config
 
-# ================= Config =================
-OUTPUT_FILE = "dataset_v3_persona.json"
+OUTPUT_FILE = "data/dataset_v3_persona.json"
 AUDIO_DIR = "audio_v3_persona"
 
 os.makedirs(AUDIO_DIR, exist_ok=True)

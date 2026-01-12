@@ -5,9 +5,7 @@ from openai import OpenAI
 import edge_tts
 import config
 
-# ================= Config =================
-
-OUTPUT_FILE = "dataset_v1_definition.json"
+OUTPUT_FILE = "data/dataset_v1_definition.json"
 AUDIO_DIR = "audio_v1"
 
 os.makedirs(AUDIO_DIR, exist_ok=True)

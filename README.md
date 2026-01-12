@@ -31,16 +31,22 @@ Running on local URL: http://0.0.0.0:7860
 
 ### 3.评测模型
 
-<for dxy>
+运行程序`gen_data_defination.py`生成基于反刍思维定义的测试数据。
+运行程序`gen_data_persona.py`生成基于人格的测试数据。
+
+运行程序`evaluate.py`评估系统效果。
 
 ## 项目结构说明
 为支持多任务并行开发，项目采用了模块化架构：
 ```
 root/
-├── app.py                # [入口] 主程序，负责 UI 渲染与 Pipeline 调度
-├── analysis_module.py    # [核心] 业务逻辑层，包含 Prompt 设计与分析算法
-├── config.py             # [配置] 全局参数文件 (模型路径、API 设置)
-└── README.md             # 项目文档
+├── app.py                          # [入口] 主程序，负责 UI 渲染与 Pipeline 调度
+├── analysis_module.py              # [核心] 业务逻辑层，包含 Prompt 设计与分析算法
+├── config.py                       # [配置] 全局参数文件 (模型路径、API 设置)
+├── gen_data_defination.py          # [数据生成] 基于反刍思维定义的测试数据
+├── gen_data_persona.py             # [数据生成] 基于人格的测试数据
+├── evaluate.py                     # [评测] 评测模型代码
+└── README.md                       # 项目文档
 ```
 
 ## 用户体验反馈

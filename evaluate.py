@@ -1,4 +1,3 @@
-import os
 import json
 import numpy as np
 from collections import defaultdict
@@ -11,7 +10,8 @@ from sklearn.metrics import (
 from analysis_module import CognitiveAnalyzer
 
 DATASET_FILES = [
-    "dataset_v3_persona.json"
+    "data/dataset_v1_definition.json",
+    "data/dataset_v3_persona.json"
 ]
 
 THRESHOLD = 0.5 
@@ -117,17 +117,17 @@ def evaluate_dataset(path, analyzer):
             group_metrics[gname][key] = compute_metrics(yt, yp, ys)
 
     prefix = path.replace(".json", "")
-    json.dump(predictions, open(f"{prefix}_predictions.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    json.dump(errors, open(f"{prefix}_errors.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    json.dump(overall, open(f"{prefix}_summary.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    json.dump(group_metrics, open(f"{prefix}_groups.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(predictions, open(f"results/{prefix}_predictions.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(errors, open(f"results/{prefix}_errors.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(overall, open(f"results/{prefix}_summary.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(group_metrics, open(f"results/{prefix}_groups.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 
-    print(f"Saved: {prefix}_*.json")
+    print(f"Saved: results/{prefix}_*.json")
 
 def main():
     analyzer = CognitiveAnalyzer()
     for path in DATASET_FILES:
-        evaluate_dataset(os.path.join("data", path), analyzer)
+        evaluate_dataset(path, analyzer)
 
 if __name__ == "__main__":
     main()
