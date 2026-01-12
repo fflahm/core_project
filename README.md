@@ -27,7 +27,7 @@ python app.py
 ```
 Running on local URL: http://0.0.0.0:1111
 ```
-然后请在浏览器中访问 http://localhost:1111 开始交互，页面中有一个`Record`按钮，点击后就可以录音或停止录音，停止录音后音频会被本地的STT模型（这里用的是Whisper）转成文字，并进入pipeline被处理。
+然后请在浏览器中访问 http://localhost:1111 开始交互，页面中有一个`Record`按钮，点击后就可以录音或停止录音，停止录音后音频会被本地的STT模型转成文字，并进入pipeline被处理。
 
 ### 3.评测模型
 
