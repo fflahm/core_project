@@ -6,7 +6,7 @@ import config
 class CognitiveAnalyzer:
     def __init__(self):
         self.client = OpenAI(api_key=config.API_KEY, base_url=config.BASE_URL)
-        
+
     def analyze_text(self, text):
         """
         Task 1: Analyzes text for keywords, tense, and abstraction.
@@ -70,7 +70,7 @@ class CognitiveAnalyzer:
                 "analysis_summary": "Analysis Failed"
             }
         
-    def detect_rumination(self, features, threshold=0.5):
+    def detect_rumination(self, features):
         """
         Task 2: Binary Classification based on features.
         """
@@ -95,21 +95,12 @@ class CognitiveAnalyzer:
         - **当下状态 (Present Focus)**：描述当下的身体感觉或正在进行的动作。
 
         ### 3. 输出要求
-        请基于输入的特征数据，综合以上判定逻辑，
-        给出一个 0 到 1 之间的数值，表示“该用户当前处于反刍思维状态的可能性”。
-
-        数值含义说明：
-        - 0.0 表示几乎可以确定不属于反刍思维
-        - 1.0 表示几乎可以确定属于反刍思维
-        - 中间值表示边界或不确定情况
-
-        请严格返回标准的 JSON 格式，不要包含 Markdown 标记或任何多余文本。
+        请基于输入的特征数据，严格返回标准的 JSON 格式，不要包含Markdown标记或其他多余文本
         格式如下：
         {
-            "confidence": 0.0-1.0,
-            "reasoning": "一句话简要说明判断依据（如：高抽象度 + 过去时态 + 自我攻击）"
+            "is_ruminating": true/false,
+            "reasoning": "简短的一句话理由，指出关键的判据（如：高抽象度+过去时态+自我攻击）"
         }
-
         """
 
         try:
@@ -122,25 +113,55 @@ class CognitiveAnalyzer:
                 response_format={"type": "json_object"},
                 stream=False
             )
-
             data = json.loads(response.choices[0].message.content)
-
-            confidence = float(data.get("confidence", 0.0))
-            reasoning = data.get("reasoning", "")
-
-            is_ruminating = confidence >= threshold
-
-            return is_ruminating, confidence, reasoning
-
+            return data.get("is_ruminating", False), data.get("reasoning", "")
         except Exception as e:
             print(f"Error in detection: {e}")
-            return False, 0.0, "Error"
+            return False, "Error"
 
-    def chat_response(self, history, current_text):
+    def chat_response(self, history, current_text, is_ruminating, reasoning):
         """
-        Generates the conversational response (The "Chat" part).
+        Task 3: Conditional Meta-Cognitive Feedback
+        Only intervenes when rumination is detected.
         """
-        messages = [{"role": "system", "content": "你是一个温柔、善于倾听的AI伙伴。"}]
+
+        # --- CASE 1: NO RUMINATION → NATURAL, NON-INTRUSIVE END ---
+        if not is_ruminating:
+            system_prompt = """
+            你是一个温和、尊重边界的 AI 伙伴。
+            如果用户的表达未显示出明显的反刍或过度自我关注，
+            请用一句简短、自然、不引导反思的回应结束对话，
+            避免进行心理分析或干预。
+            """
+
+        # --- CASE 2: RUMINATION DETECTED → META-COGNITIVE INTERVENTION ---
+        else:
+            system_prompt = f"""
+            你是一个“元认知引导型 AI 伙伴（Cognitive Mirror）”，
+            你的目标不是解决问题，也不是评价用户的想法，
+            而是**帮助用户觉察自己的思维过程本身**。
+
+            ### 当前认知判断（仅供你参考，不要直接告诉用户）：
+            - 判定为：反刍思维
+            - 关键理由：{reasoning}
+
+            ### 你的回应必须遵循以下原则：
+            1. **非评判性**：不要说“这是不好的”“你不应该这样想”。
+            2. **非建议性**：不要给任何解决方案或行动建议。
+            3. **元认知聚焦**：关注“思维模式”，而非“事情本身”。
+            4. **镜像式表达**：使用“我注意到……”“我们似乎……”。
+            5. **邀请觉察**：用开放式问题邀请用户自我觉察，而不是下结论。
+            6. **简短温和**：1–2 句话即可，像一面镜子，而不是一段分析报告。
+
+            ### 推荐句式参考（不要生硬照抄）：
+            - “我注意到，你的想法似乎一直在围绕着对自己的怀疑打转。”
+            - “我们好像反复回到了同一个问题上，而不是某个具体的情境。”
+            - “你也觉察到这种‘停不下来的思考’了吗？”
+
+            请基于用户的原始表达，自然生成一句或两句元认知引导式回应。
+            """
+
+        messages = [{"role": "system", "content": system_prompt}]
         messages.extend(history)
         messages.append({"role": "user", "content": current_text})
 

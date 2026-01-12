@@ -47,13 +47,10 @@ def pipeline(audio_filepath, chat_history):
         return chat_history, chat_history, None
 
     # --- STEP 2: ANALYZE (TASK 1) ---
-    # This is where we call the new module. 
-    # Teammates can expand this without breaking the UI.
+    # This is where we call the new module.
     logger.info("🔍 Analyzing Cognitive Features...")
     analysis_result = brain.analyze_text(user_text)
-
-    # 2.2 二元判别 (Task 2)
-    is_ruminating, confidence, reasoning = brain.detect_rumination(analysis_result)
+    is_ruminating, reasoning = brain.detect_rumination(analysis_result)
     
     # Print the structured analysis to the terminal (for debugging/demo)
     logger.info(f"📊 ANALYSIS REPORT:\n"
@@ -65,13 +62,12 @@ def pipeline(audio_filepath, chat_history):
                 f"   - Summary:        {analysis_result.get('analysis_summary')}\n"
                 f"   ----------------------------------------\n"
                 f"   [Rumination Detection]\n"
-                f"   - Is Ruminating:  {'YES' if is_ruminating else 'NO'}\n"
-                f"   - Confidence:    {confidence:.2f}\n"
-                f"   - Reasoning:     {reasoning}\n"
+                f"   - Is Ruminating:  {'🔴 YES' if is_ruminating else '🟢 NO'}\n"
+                f"   - Reasoning:      {reasoning}\n"
                 f"   ----------------------------------------")
     # --- STEP 3: RESPOND ---
     logger.info("🤖 Generating Response...")
-    bot_reply = brain.chat_response(chat_history, user_text)
+    bot_reply = brain.chat_response(chat_history, user_text, is_ruminating, reasoning)
 
     # --- UPDATE UI ---
     chat_history.append({"role": "user", "content": user_text})
