@@ -25,13 +25,14 @@ python app.py
 ```
 启动成功后，控制台将输出本地访问地址：
 ```
-Running on local URL: http://0.0.0.0:7860
+Running on local URL: http://0.0.0.0:1111
 ```
-然后请在浏览器中访问 http://localhost:7860 开始交互，页面中有一个`Record`按钮，点击后就可以录音或停止录音，停止录音后音频会被本地的STT模型（这里用的是Whisper）转成文字，并进入pipeline被处理。
+然后请在浏览器中访问 http://localhost:1111 开始交互，页面中有一个`Record`按钮，点击后就可以录音或停止录音，停止录音后音频会被本地的STT模型（这里用的是Whisper）转成文字，并进入pipeline被处理。
 
 ### 3.评测模型
 
 运行程序`gen_data_defination.py`生成基于反刍思维定义的测试数据。
+
 运行程序`gen_data_persona.py`生成基于人格的测试数据。
 
 运行程序`evaluate.py`评估系统效果。
@@ -51,4 +52,4 @@ root/
 
 ## 用户体验反馈
 
-https://v.wjx.cn/vm/wehMlJL.aspx#
+为了在真实的对话场景中评估系统的表现，我们设计了一份调查问卷，见https://v.wjx.cn/vm/wehMlJL.aspx#。
