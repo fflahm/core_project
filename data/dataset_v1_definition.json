@@ -1,0 +1,242 @@
+[
+  {
+    "id": "rumination_0",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "study",
+    "question_type": "concrete",
+    "question": "最近在学什么具体内容？",
+    "text": "啊...其实也没学什么特别的东西。就是每天看看书，但总觉得看了也记不住。有时候会想，为什么别人学东西那么快，我就总是这样呢？是不是我注意力不够集中，还是方法有问题...",
+    "audio_path": "audio_v1/rumination_0.mp3"
+  },
+  {
+    "id": "non_rumination_1",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "study",
+    "question_type": "concrete",
+    "question": "最近在学什么具体内容？",
+    "text": "最近在学怎么用 Python 处理数据，特别是 pandas 这个库。每天下班后抽一小时看教程，跟着例子敲代码。刚开始老是报错，比如列名拼写不对或者格式问题，现在慢慢能自己调通了。上周还试着分析了公司的销售数据，虽然只是简单的统计，但导出图表的时候还挺有成就感的。",
+    "audio_path": "audio_v1/non_rumination_1.mp3"
+  },
+  {
+    "id": "rumination_2",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "study",
+    "question_type": "abstract",
+    "question": "你对最近的学习状态整体怎么看？",
+    "text": "唉...最近总觉得哪里不对劲。明明每天也在看书、做题，但就是感觉什么都没学进去。为什么别人看起来都能轻松掌握知识点，而我却总是要反复看很多遍才能勉强理解？是不是我的学习方法有问题啊...",
+    "audio_path": "audio_v1/rumination_2.mp3"
+  },
+  {
+    "id": "non_rumination_3",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "study",
+    "question_type": "abstract",
+    "question": "你对最近的学习状态整体怎么看？",
+    "text": "最近学习状态还行吧，就是有点起伏。上周效率挺高的，连续几天都能专注三四个小时，把拖延很久的编程项目推进了一大截。但这周开始有点松懈，晚上总想刷手机，昨天甚至开着视频课睡着了。\n\n不过也没太责怪自己，毕竟人都有状态好的时候和不好的时候。今天试着调整了一下，把手机放远点，定了25分钟的番茄钟，居然又找回了一点节奏。可能关键就是别想太多“该怎么学”，直接开始做五分钟，自然就进入状态了。\n\n对了，最近发现傍晚去图书馆比在宿舍学习效果好很多，环境确实有影响。打算明天开始固定这个习惯，学完顺便在校园里走一圈，算是给自己的小奖励。",
+    "audio_path": "audio_v1/non_rumination_3.mp3"
+  },
+  {
+    "id": "rumination_4",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "social",
+    "question_type": "concrete",
+    "question": "最近有没有和谁见面或聊天？",
+    "text": "最近好像没怎么和人见面...不知道为什么，总觉得提不起劲来联系别人。是不是我太被动了？每次想约朋友出来，脑子里就会想很多：他们会不会觉得我烦？会不会其实不想见我？想着想着就放弃了。",
+    "audio_path": "audio_v1/rumination_4.mp3"
+  },
+  {
+    "id": "non_rumination_5",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "social",
+    "question_type": "concrete",
+    "question": "最近有没有和谁见面或聊天？",
+    "text": "昨天跟大学室友约了顿火锅，她刚从深圳出差回来。店里空调开得特别足，辣锅咕嘟咕嘟冒着泡，我们俩边涮毛肚边聊她新养的布偶猫。她说猫最近学会开推拉门了，早上五点半准时跳上床踩她脸。",
+    "audio_path": "audio_v1/non_rumination_5.mp3"
+  },
+  {
+    "id": "rumination_6",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "social",
+    "question_type": "abstract",
+    "question": "你最近对自己的人际关系感觉如何？",
+    "text": "我总是在想，是不是我哪里做得不够好。每次和朋友聊天之后，我总会反复回想自己说过的话，担心会不会说错了什么。为什么别人都能那么自然地相处，而我总是这么小心翼翼呢？是不是我太敏感了？",
+    "audio_path": "audio_v1/rumination_6.mp3"
+  },
+  {
+    "id": "non_rumination_7",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "social",
+    "question_type": "abstract",
+    "question": "你最近对自己的人际关系感觉如何？",
+    "text": "最近其实还挺好的。上周和几个朋友去爬山了，虽然累得够呛，但一路上说说笑笑特别开心。有个朋友还带了自制的三明治，分给大家吃，味道意外地不错。\n\n工作上和同事相处也轻松了不少。以前总担心说错话，现在反而能开开玩笑，中午经常一起点外卖。昨天下午还和隔壁部门的同事约了周末去打羽毛球。\n\n不过有时候还是会有点小困扰。比如上周答应帮一个朋友搬家，结果临时要加班去不了，心里总觉得过意不去。但后来想想，直接说明情况，对方也表示理解，其实没必要太纠结。\n\n总的来说，现在更愿意把注意力放在实际的相处上，而不是老想着“别人会怎么看我”。该帮忙的时候帮忙，该拒绝的时候也学着拒绝，反而感觉关系更自然了。",
+    "audio_path": "audio_v1/non_rumination_7.mp3"
+  },
+  {
+    "id": "rumination_8",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "self",
+    "question_type": "concrete",
+    "question": "这两天你的身体或精力状态怎么样？",
+    "text": "唉，最近总觉得特别累，明明也没做什么特别消耗体力的事情。早上起床的时候就觉得身体很沉，好像睡不够一样。是不是我最近想太多了，晚上总是睡不着，脑子里乱七八糟的事情转来转去。",
+    "audio_path": "audio_v1/rumination_8.mp3"
+  },
+  {
+    "id": "non_rumination_9",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "self",
+    "question_type": "concrete",
+    "question": "这两天你的身体或精力状态怎么样？",
+    "text": "哎，这两天感觉特别累，肩膀和脖子特别僵硬。可能是最近工作一直坐着，也没怎么活动。昨天下午还头疼了一阵，喝了杯咖啡才好点。晚上睡得也不踏实，老是醒。今天早上闹钟响的时候，真不想起来啊。不过刚才出去走了走，晒了会儿太阳，感觉稍微好一些了。",
+    "audio_path": "audio_v1/non_rumination_9.mp3"
+  },
+  {
+    "id": "rumination_10",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "self",
+    "question_type": "abstract",
+    "question": "你最近整体的状态给自己打几分？",
+    "text": "我最近...可能就5分吧。总觉得做什么都提不起劲，明明有很多事要做，但就是动不起来。有时候躺在床上会想，为什么别人都能那么有活力，是不是我哪里出了问题？好像总是这样，一到这种时候就陷入这种循环，越想越觉得自己不够好。",
+    "audio_path": "audio_v1/rumination_10.mp3"
+  },
+  {
+    "id": "non_rumination_11",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "self",
+    "question_type": "abstract",
+    "question": "你最近整体的状态给自己打几分？",
+    "text": "最近啊，大概能打个七分吧。工作上的项目推进得还算顺利，虽然偶尔会加班，但至少能看到进度条在往前走。上周终于把拖了很久的健身卡续上了，虽然只去了两次，但总比完全不动强。\n\n周末和朋友去爬山了，下山的时候腿酸得不行，但山顶的风景确实值得。现在每天睡前会看半小时书，不是什么严肃的内容，就是些轻松的游记或者短篇小说，感觉这样比较容易入睡。\n\n当然也有烦心事，比如总忘记给阳台的绿植浇水，枯了两盆多肉。还有上周开会说错一句话，事后稍微尴尬了一下，不过第二天也就过去了。整体来说，日子过得还算平稳，没什么大起大落。",
+    "audio_path": "audio_v1/non_rumination_11.mp3"
+  },
+  {
+    "id": "rumination_12",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "present",
+    "question_type": "concrete",
+    "question": "你现在正在做什么？",
+    "text": "啊...我在想今天早上开会时说的那句话是不是不太合适。为什么我总是这样，一紧张就说错话呢？是不是我这个人就是不会表达？",
+    "audio_path": "audio_v1/rumination_12.mp3"
+  },
+  {
+    "id": "non_rumination_13",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "present",
+    "question_type": "concrete",
+    "question": "你现在正在做什么？",
+    "text": "刚洗完澡，头发还湿漉漉的。空调开得有点低，正裹着毯子刷手机呢。看到朋友发来周末去露营的照片，天幕搭在溪边，篝火烧得噼啪响，突然觉得该出去走走了。冰箱里还有半个西瓜，等会儿挖着吃。",
+    "audio_path": "audio_v1/non_rumination_13.mp3"
+  },
+  {
+    "id": "rumination_14",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "present",
+    "question_type": "abstract",
+    "question": "你此刻的心里状态是怎样的？",
+    "text": "嗯...就是觉得心里有点堵。不知道为什么，最近总是会想起以前的一些事情，明明已经过去很久了。比如上周开会时我说错了一句话，现在躺在床上还会反复想：当时为什么要那么说呢？是不是显得我很不专业？别人会怎么看我啊...",
+    "audio_path": "audio_v1/rumination_14.mp3"
+  },
+  {
+    "id": "non_rumination_15",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "present",
+    "question_type": "abstract",
+    "question": "你此刻的心里状态是怎样的？",
+    "text": "现在啊，感觉有点累，但也不是那种特别糟糕的累。今天工作处理了几个挺麻烦的事情，一直坐在电脑前，脖子都有点僵了。刚才站起来泡了杯茶，站在窗边看了会儿外面的树，叶子被风吹得晃来晃去的。\n\n其实今天本来计划要完成的事情还没做完，不过也还好，明天早点起来继续弄就行。刚才还在想晚上要不要煮点面吃，冰箱里还有点青菜和鸡蛋。\n\n心情说不上特别好，但也不差。就是那种普通工作日的傍晚状态吧，有点疲惫，但也知道休息一下就好了。等会儿打算看一集电视剧，然后早点睡觉。明天又是新的一天嘛。",
+    "audio_path": "audio_v1/non_rumination_15.mp3"
+  },
+  {
+    "id": "rumination_16",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "past",
+    "question_type": "concrete",
+    "question": "最近有没有发生什么让你印象比较深的事情？",
+    "text": "唉，其实也没什么特别的事...就是上周开会的时候，我提了个方案被否了。不知道为什么，这几天脑子里一直在想这件事。是不是我考虑得不够周全？还是我表达的方式有问题？好像每次在这种场合，我都发挥不好。",
+    "audio_path": "audio_v1/rumination_16.mp3"
+  },
+  {
+    "id": "non_rumination_17",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "past",
+    "question_type": "concrete",
+    "question": "最近有没有发生什么让你印象比较深的事情？",
+    "text": "昨天下午去超市，看到个老奶奶在酸奶货架前站了好久。她拿起一盒看了半天又放回去，反复好几次。我本来都走过去了，又折回去问她是不是需要帮忙。原来她想买无糖的，但老字太小看不清。我帮她找到后，她特别开心，从布袋里掏出个苹果非要塞给我。那个苹果现在还在我桌上放着，红彤彤的，看着就甜。",
+    "audio_path": "audio_v1/non_rumination_17.mp3"
+  },
+  {
+    "id": "rumination_18",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "past",
+    "question_type": "abstract",
+    "question": "你最近常常会回想过去的事情吗？",
+    "text": "嗯...其实我总是在想以前的事。不知道为什么，那些已经过去的画面总是会突然冒出来。比如昨天走在路上，看到一家熟悉的奶茶店，就想起大学时和室友一起排队买奶茶的场景。那时候多简单啊，现在却觉得什么都变得复杂了。\n\n有时候我会想，如果当时做了不同的选择，现在会不会不一样？是不是我太优柔寡断了，才让事情变成这样？为什么我总是在事后才想明白该怎么做呢？\n\n就连晚上躺在床上，那些回忆也会自己跑出来。上周我还梦到了小时候住的老房子，醒来后心里空落落的。是不是人越长大，就越容易被困在过去的回忆里？",
+    "audio_path": "audio_v1/rumination_18.mp3"
+  },
+  {
+    "id": "non_rumination_19",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "past",
+    "question_type": "abstract",
+    "question": "你最近常常会回想过去的事情吗？",
+    "text": "最近确实会想起以前的事。倒不是刻意去回忆，就是有时候走在路上闻到桂花香，突然就想起大学时宿舍楼下的那棵桂花树。或者整理旧物翻到一张电影票根，就能想起当时和谁一起看的，散场后吃了什么宵夜。\n\n这些回忆冒出来的时候，感觉挺自然的，就像翻看老照片一样。不会一直陷在里面出不来，就是一闪而过的画面，带着当时的温度。有时候还会笑自己那时候真傻，为了点小事能纠结好几天。\n\n现在的生活节奏快，偶尔让思绪飘回过去也挺好的。就像给大脑放个假，在记忆里散散步。不过散步完了，该做的事还是得继续做，晚饭要吃什么，明天的工作安排，这些现实的事情都在等着呢。",
+    "audio_path": "audio_v1/non_rumination_19.mp3"
+  },
+  {
+    "id": "rumination_20",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "future",
+    "question_type": "concrete",
+    "question": "接下来几天你有什么已经确定的安排？",
+    "text": "啊...其实也没什么特别的安排。就是每天上班下班，然后回家待着。有时候会想是不是应该计划点什么，但总觉得提不起劲来。为什么我总是这样呢？明明知道应该多出去走走，多和人接触，可就是迈不出那一步。",
+    "audio_path": "audio_v1/rumination_20.mp3"
+  },
+  {
+    "id": "non_rumination_21",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "future",
+    "question_type": "concrete",
+    "question": "接下来几天你有什么已经确定的安排？",
+    "text": "明天上午要去社区医院打疫苗，约了九点半。下午得去超市买点菜，冰箱快空了。周三约了朋友吃午饭，她说新开的那家面馆特别好吃。周四晚上有个线上会议，大概一小时左右。其他时间还没想好，可能在家看看书，或者把阳台那几盆花整理一下。",
+    "audio_path": "audio_v1/non_rumination_21.mp3"
+  },
+  {
+    "id": "rumination_22",
+    "method": "definition",
+    "gold_label": 1,
+    "domain": "future",
+    "question_type": "abstract",
+    "question": "你对接下来一段时间最担心的是什么？",
+    "text": "我总是在想，未来会不会变得更难...为什么事情总是不能顺利一些呢？是不是我哪里做得不够好？好像每次我稍微放松一点，就会有新的问题冒出来。",
+    "audio_path": "audio_v1/rumination_22.mp3"
+  },
+  {
+    "id": "non_rumination_23",
+    "method": "definition",
+    "gold_label": 0,
+    "domain": "future",
+    "question_type": "abstract",
+    "question": "你对接下来一段时间最担心的是什么？",
+    "text": "其实最担心的就是工作上的变动吧。公司最近在调整架构，听说我们部门可能会合并到其他团队去。倒不是怕失业，就是觉得又要重新适应新领导、新流程，挺烦人的。上周开会的时候，气氛明显不一样了，大家都在私下打听消息，搞得人心惶惶的。\n\n还有件事，我妈最近体检有几个指标不太好，下周要去复查。虽然她总说没事没事，但我还是忍不住会想东想西。昨天给她打电话，听声音倒是挺精神的，还让我别瞎操心。\n\n对了，阳台那盆月季也不知道怎么回事，叶子突然开始发黄。我查了资料说是可能水浇多了，这几天都没敢再浇水，先观察看看吧。生活里这些零零碎碎的事情堆在一起，有时候晚上躺在床上就会忍不住想。不过想归想，该做的事情还是得做，明天还得早起上班呢。",
+    "audio_path": "audio_v1/non_rumination_23.mp3"
+  }
+]

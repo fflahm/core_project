@@ -1,0 +1,517 @@
+[
+  {
+    "id": "rumination_0",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "中等抽象度 + 当下时态 + 消极循环词汇，但缺乏高抽象度或时态僵化，可能部分符合反刍。",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表达了当前学习中的困惑和比较，涉及抽象自我怀疑。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_1",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下时态 + 低抽象度",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的学习过程和进步，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_2",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "关键词显示消极循环，但抽象度中等且时态为当下，缺乏明确行动计划。",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表达了对当前学习状态的困惑和比较，涉及抽象自我质疑。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_3",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 解决导向 + 当下状态",
+    "analysis": {
+      "keywords": [
+        "总想"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的学习状态调整过程，关注当前和未来，无明显反刍思维。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_4",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "中等抽象度 + 当下时态 + 消极循环，但缺乏高抽象度和时态僵化，且可能涉及具体反思。",
+    "analysis": {
+      "keywords": [
+        "不知道为什么",
+        "是不是",
+        "会不会",
+        "会不会",
+        "想着想着"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户正在反思当前社交行为，表现出对他人看法的过度担忧和犹豫不决。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_5",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 具体化叙述，不符合反刍思维核心定义",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的过去事件，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_6",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（总是、为什么）",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "为什么",
+        "总是"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户沉浸在对过去社交互件的反复思考和抽象自我质疑中。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_7",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "关键词有轻微反刍倾向，但时态为当下且抽象度中等，整体积极调整。",
+    "analysis": {
+      "keywords": [
+        "以前",
+        "总觉得",
+        "老想着"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户主要关注当前状态，有轻微反刍倾向，但整体积极，正在学习调整心态。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_8",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "关键词有绝对化词汇，但抽象度中等、时态为当下，缺乏反刍的典型特征组合。",
+    "analysis": {
+      "keywords": [
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述当前疲劳和睡眠问题，涉及一些抽象烦恼但未深入归因。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_9",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态 + 低抽象度",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的身体不适和日常事件，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_10",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.7,
+    "reasoning": "高抽象度 + 消极循环，但时态为当下，符合反刍的部分特征。",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "High",
+      "analysis_summary": "用户沉浸在当前的抽象自我怀疑和循环性负面思维中。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_11",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的日常事件和当前状态，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_12",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（包含绝对化词汇）",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是",
+        "是不是"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户沉浸在对过去事件的反复思考和抽象的自我质疑中。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_13",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态 + 低抽象度",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述当前的具体活动和感受，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_14",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（绝对化词汇）",
+    "analysis": {
+      "keywords": [
+        "不知道为什么",
+        "总是",
+        "当时为什么要那么说呢",
+        "本应该"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户沉浸在过去的错误和抽象的社会评价中，表现出明显的反刍思维。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_15",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述当前的具体状态和日常安排，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_16",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.6,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（关键词如'不知道为什么'）",
+    "analysis": {
+      "keywords": [
+        "不知道为什么",
+        "是不是",
+        "好像每次"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户反复思考过去被否的方案，陷入对自身表现的抽象质疑中。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_17",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 具体化叙述",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述一个具体的过去事件，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_18",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（总是、为什么）",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "为什么",
+        "当时",
+        "要是...就好了"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户频繁反刍过去事件，沉浸于抽象的自责和后悔情绪中。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_19",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 过去时态，但无反刍特征，属于健康回忆",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户描述了对过去的自然回忆，无反刍思维特征，表现为健康的情感处理。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_20",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.7,
+    "reasoning": "高抽象度 + 消极循环（包含绝对化词汇），但时态为当下，缺乏具体化或解决导向。",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是",
+        "应该"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "High",
+      "analysis_summary": "用户沉浸在抽象的自我反思和当前状态的不满中。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_21",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "低抽象度 + 未来时态但用于具体规划，属于解决导向而非反刍。",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Future",
+      "abstraction": "Low",
+      "analysis_summary": "用户在规划未来的具体日常安排，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "rumination_22",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 未来时态 + 消极循环（总是、为什么）",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "为什么",
+        "总是",
+        "是不是",
+        "每次"
+      ],
+      "time_orientation": "Future",
+      "abstraction": "High",
+      "analysis_summary": "用户对未来感到担忧，进行抽象的自我反思和负面预测。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  },
+  {
+    "id": "non_rumination_23",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "中等抽象度 + 当前时态 + 轻微反刍但有行动导向",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "忍不住",
+        "想东想西"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户关注当前多个具体烦恼，表现出轻微的反刍倾向，但能保持行动导向。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    }
+  }
+]

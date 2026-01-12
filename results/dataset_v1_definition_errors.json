@@ -1,0 +1,100 @@
+[
+  {
+    "id": "rumination_0",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "中等抽象度 + 当下时态 + 消极循环词汇，但缺乏高抽象度或时态僵化，可能部分符合反刍。",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表达了当前学习中的困惑和比较，涉及抽象自我怀疑。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    },
+    "text": "啊...其实也没学什么特别的东西。就是每天看看书，但总觉得看了也记不住。有时候会想，为什么别人学东西那么快，我就总是这样呢？是不是我注意力不够集中，还是方法有问题...",
+    "question": "最近在学什么具体内容？"
+  },
+  {
+    "id": "rumination_2",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "关键词显示消极循环，但抽象度中等且时态为当下，缺乏明确行动计划。",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表达了对当前学习状态的困惑和比较，涉及抽象自我质疑。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    },
+    "text": "唉...最近总觉得哪里不对劲。明明每天也在看书、做题，但就是感觉什么都没学进去。为什么别人看起来都能轻松掌握知识点，而我却总是要反复看很多遍才能勉强理解？是不是我的学习方法有问题啊...",
+    "question": "你对最近的学习状态整体怎么看？"
+  },
+  {
+    "id": "rumination_4",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "中等抽象度 + 当下时态 + 消极循环，但缺乏高抽象度和时态僵化，且可能涉及具体反思。",
+    "analysis": {
+      "keywords": [
+        "不知道为什么",
+        "是不是",
+        "会不会",
+        "会不会",
+        "想着想着"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户正在反思当前社交行为，表现出对他人看法的过度担忧和犹豫不决。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    },
+    "text": "最近好像没怎么和人见面...不知道为什么，总觉得提不起劲来联系别人。是不是我太被动了？每次想约朋友出来，脑子里就会想很多：他们会不会觉得我烦？会不会其实不想见我？想着想着就放弃了。",
+    "question": "最近有没有和谁见面或聊天？"
+  },
+  {
+    "id": "rumination_8",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "关键词有绝对化词汇，但抽象度中等、时态为当下，缺乏反刍的典型特征组合。",
+    "analysis": {
+      "keywords": [
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述当前疲劳和睡眠问题，涉及一些抽象烦恼但未深入归因。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": null,
+      "pattern_id": null,
+      "method": "definition"
+    },
+    "text": "唉，最近总觉得特别累，明明也没做什么特别消耗体力的事情。早上起床的时候就觉得身体很沉，好像睡不够一样。是不是我最近想太多了，晚上总是睡不着，脑子里乱七八糟的事情转来转去。",
+    "question": "这两天你的身体或精力状态怎么样？"
+  }
+]

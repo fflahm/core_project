@@ -1,0 +1,1057 @@
+[
+  {
+    "id": "rumination_prone_0",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.6,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "明明",
+        "老是这样",
+        "明明可以"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户反复纠结于过去学习中的低效和错误，表现出对自我能力的怀疑和抽象反思。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_1",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.7,
+    "reasoning": "高抽象度 + 消极循环（总是、为什么、万一等关键词），但时态为当下，有一定行动计划缺失。",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "应该",
+        "为什么",
+        "要是...怎么办",
+        "万一"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "High",
+      "analysis_summary": "用户表现出对当前学习状态的反复担忧和抽象自责，伴有对未来负面结果的过度想象。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_2",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.6,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环",
+    "analysis": {
+      "keywords": [
+        "总",
+        "反复",
+        "后悔"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户沉浸在过去的社交焦虑和后悔中，涉及具体事件但带有抽象担忧。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_3",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环",
+    "analysis": {
+      "keywords": [
+        "总",
+        "反复",
+        "琢磨",
+        "会不会",
+        "是不是",
+        "担心",
+        "越想越觉得",
+        "总忍不住想",
+        "是不是",
+        "挥之不去"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户表现出对过去社交互动的过度反思和抽象担忧，体现了典型的反刍思维特征。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_4",
+    "gold": 1,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "关键词显示消极循环，但时态为当下且抽象度中等，缺乏高抽象度或僵化时态",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "担心",
+        "反复琢磨",
+        "自责"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表现出持续的反刍思维，关注当前状态，混合具体事件和抽象担忧，导致身心困扰。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_5",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.7,
+    "reasoning": "过去时态 + 消极循环（总是、万一、要是）",
+    "analysis": {
+      "keywords": [
+        "会不会",
+        "总是",
+        "万一",
+        "要是"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表现出对过去事件的反复担忧和对未来可能性的抽象焦虑，伴有反刍思维特征。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_6",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.7,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环",
+    "analysis": {
+      "keywords": [
+        "明明可以...更好",
+        "越想越后悔"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户沉浸在对过去事件的后悔和反复思考中，带有一定抽象烦恼。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_7",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（关键词包含绝对化词汇和无解的为什么提问）",
+    "analysis": {
+      "keywords": [
+        "为什么",
+        "总是",
+        "要是...就好了"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户沉浸在对过去错误的反复思考和抽象担忧中，表现出明显的反刍思维特征。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_8",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.7,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "当时",
+        "如果...会不会更好"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户沉浸在对过去事件的反复思考和假设性后悔中。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_9",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（总是、反复想）",
+    "analysis": {
+      "keywords": [
+        "如果...就好了",
+        "当时",
+        "总是",
+        "明明",
+        "反复想"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户沉浸在对过去事件的反复思考和抽象假设中，表现出强烈的反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_10",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.7,
+    "reasoning": "未来时态 + 消极循环（反复想、控制不住），但抽象度为中等，未达高抽象度，故可能性较高但非完全确定。",
+    "analysis": {
+      "keywords": [
+        "反复想",
+        "想太多",
+        "控制不住"
+      ],
+      "time_orientation": "Future",
+      "abstraction": "Medium",
+      "analysis_summary": "用户对未来事件（工作汇报）表现出担忧和反复思考，具有反刍思维特征。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "rumination_prone_11",
+    "gold": 1,
+    "pred": 1,
+    "confidence": 0.9,
+    "reasoning": "高抽象度 + 过去时态 + 消极循环（包含绝对化词汇）",
+    "analysis": {
+      "keywords": [
+        "总",
+        "要是...怎么办",
+        "会不会",
+        "总是",
+        "回想起来",
+        "责怪自己"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户沉浸在对过去事件的反复思考和未来担忧中，表现出明显的反刍思维特征。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "rumination_prone",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_12",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态 + 低抽象度，不符合反刍思维标准",
+    "analysis": {
+      "keywords": [
+        "为什么"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的学习经历和积极感受，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_13",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "关键词包含绝对化词汇，但时态为当下且抽象度中等，整体偏向具体调整和未来希望。",
+    "analysis": {
+      "keywords": [
+        "总怕",
+        "总是",
+        "要是...就好了"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表达了对当前学习状态的担忧和反思，包含一些反刍思维特征，但整体偏向具体调整和未来希望。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_14",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "过去时态和绝对化词汇符合反刍特征，但中等抽象度和积极反思降低了可能性。",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "要是...就好了"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户回顾过去事件，表达对朋友和自身处境的担忧，但结尾带有积极反思，反刍程度中等。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_15",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "混合具体事件与抽象烦恼，但时态为当下，缺乏绝对化词汇或僵化时态。",
+    "analysis": {
+      "keywords": [
+        "是不是",
+        "会不会",
+        "可能",
+        "担心",
+        "不安",
+        "反复想",
+        "控制不住"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表达了对当前社交困扰和情绪敏感度的担忧，涉及具体事件和抽象烦恼的混合。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_16",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "中等抽象度 + 当下时态 + 轻微反刍特征",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "要是...就好了"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述了当前的压力和矛盾情绪，涉及具体事件和抽象担忧，带有轻微反刍特征。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_17",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "中等抽象度 + 当前时态 + 部分消极循环，但缺乏明确行动计划",
+    "analysis": {
+      "keywords": [
+        "一直",
+        "总是",
+        "还没"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述了持续的焦虑状态，关注当前担忧和具体事件，但带有抽象的情绪反思。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_18",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "有消极循环关键词但抽象度中等且关注当下，并有行动缓解导向，不完全符合反刍思维",
+    "analysis": {
+      "keywords": [
+        "万一",
+        "如果",
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表现出对当前任务的担忧和反刍思维，但通过行动尝试缓解焦虑。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_19",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "中等抽象度 + 当下时态，但关键词显示轻微消极循环，无明显行动计划。",
+    "analysis": {
+      "keywords": [
+        "总觉得",
+        "怎么可能",
+        "哪有时间啊"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述当前压力与担忧，但表现出一定的应对能力，反刍思维程度中等。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_20",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "过去时态但具体化叙述和解决导向，无明显反刍特征",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户回顾过去的具体事件，并从中提取抽象的情感反思，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_21",
+    "gold": 0,
+    "pred": 1,
+    "confidence": 0.5,
+    "reasoning": "过去时态 + 中等抽象度，但缺乏高抽象度或消极循环的明确证据",
+    "analysis": {
+      "keywords": [
+        "明明",
+        "已经"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Medium",
+      "analysis_summary": "用户反复回忆过去的具体事件，并表达情绪残留，显示反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_22",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.4,
+    "reasoning": "未来时态和关键词符合反刍特征，但抽象度中等且行动导向较强，降低了反刍可能性。",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "不知道为什么",
+        "想太多"
+      ],
+      "time_orientation": "Future",
+      "abstraction": "Medium",
+      "analysis_summary": "用户对未来事件感到焦虑，表现出对日常安排的反复思考，但行动导向较强。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "anxious_but_functional_23",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "中等抽象度 + 未来时态，但结合具体行动导向，不完全符合反刍思维",
+    "analysis": {
+      "keywords": [
+        "总怕",
+        "万一",
+        "不敢"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表现出对当前工作挑战的担忧和未来可能性的想象，但通过具体行动来应对，属于中等抽象的反刍思维。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "anxious_but_functional",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_24",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态 + 解决导向",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在积极描述当前学习和应用行为经济学的具体经历，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_25",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "用户有具体事件描述和积极调整倾向，但包含绝对化词汇，轻微反刍可能。",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "比如"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户在反思当前学习状态，包含具体事件和抽象烦恼，但整体呈现积极调整倾向。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_26",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 具体化叙述",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的过去偶遇事件，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_27",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "关注当下、具体事件和调整，无抽象或僵化特征",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户反思人际关系，关注当前调整和具体事件，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_28",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 具体化叙述，但时态为过去",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的近期事件和调整措施，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_29",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "用户有反思倾向但伴随具体行动导向，时态为当下，抽象度中等，不符合反刍思维的核心特征。",
+    "analysis": {
+      "keywords": [
+        "是不是",
+        "复盘"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表现出对过去事件的反思倾向，但当前正尝试通过具体行动管理这种思维，整体处于调整状态。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_30",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "时态为当下且分析总结无明显反刍特征，但抽象度中等可能包含部分抽象思考",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户在描述当前状态和抽象思考，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_31",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "关键词有绝对化词汇，但时态为当下、抽象度为中等，且分析总结指出无明显反刍思维。",
+    "analysis": {
+      "keywords": [
+        "总",
+        "还没",
+        "不够"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述当前心理状态，涉及具体事件和抽象感受，无明显反刍思维。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_32",
+    "gold": 0,
+    "pred": 1,
+    "confidence": 0.6,
+    "reasoning": "高抽象度 + 过去时态 + 绝对化词汇，但分析摘要提示无明显反刍特征，存在不确定性",
+    "analysis": {
+      "keywords": [
+        "总",
+        "要是",
+        "为什么"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "High",
+      "analysis_summary": "用户通过回忆过去事件，进行抽象反思，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_33",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 过去时态，但描述具体事件，无明显反刍特征",
+    "analysis": {
+      "keywords": [
+        "想起",
+        "以前",
+        "突然",
+        "小时候"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户描述了对过去具体事件的回忆，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_34",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "未来时态但具体化叙述和解决导向，无明显反刍特征。",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Future",
+      "abstraction": "Medium",
+      "analysis_summary": "用户在规划未来活动，描述具体任务和抽象目标，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "reflective_35",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "关键词有绝对化词汇，但时态为当下且抽象度中等，并有具体调整措施，反刍可能性较低。",
+    "analysis": {
+      "keywords": [
+        "总",
+        "永远",
+        "总",
+        "明明",
+        "明明"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述了当前悬空状态和知行不合一的焦虑，但正在采取具体调整措施，反刍程度中等。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "reflective",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_36",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的观察和兴趣，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_37",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "中等抽象度 + 现在时态 + 轻微反刍倾向但缺乏强烈循环",
+    "analysis": {
+      "keywords": [
+        "总是",
+        "就是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述当前学习状态，带有轻微的反刍倾向，关注效率问题但无明显强烈情绪。"
+    },
+    "meta": {
+      "domain": "study",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_38",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 积极情绪 + 低抽象度",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的过去社交活动，表达积极情绪，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_39",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "低抽象度 + 当下时态 + 具体化叙述",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户描述当前平静的生活状态，关注具体日常，无明显反刍思维。"
+    },
+    "meta": {
+      "domain": "social",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_40",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 具体化叙述，不符合反刍思维核心定义",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述具体的日常活动和感受，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_41",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.2,
+    "reasoning": "当下时态 + 中等抽象度，缺乏反刍所需的被动重复和僵化特征",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户描述当前生活状态，情绪平稳，但包含对生活重复性的轻微抽象反思。"
+    },
+    "meta": {
+      "domain": "self",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_42",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态 + 低抽象度",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述当前的具体日常行为，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_43",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态，无高抽象度或时态僵化",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述当前的具体状态和日常活动，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "present",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_44",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 低抽象度",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述一个具体、客观的过去事件，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_45",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.1,
+    "reasoning": "低抽象度 + 过去时态，但无消极循环或解决导向，属于具体回忆而非反刍。",
+    "analysis": {
+      "keywords": [
+        "想起",
+        "以前",
+        "小时候"
+      ],
+      "time_orientation": "Past",
+      "abstraction": "Low",
+      "analysis_summary": "用户描述由具体感官触发对过去事件的回忆，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "past",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_46",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.0,
+    "reasoning": "具体化叙述 + 当下状态 + 解决导向",
+    "analysis": {
+      "keywords": [],
+      "time_orientation": "Present",
+      "abstraction": "Low",
+      "analysis_summary": "用户在描述当前和未来的具体日常计划，无明显反刍思维特征。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  },
+  {
+    "id": "emotionally_stable_47",
+    "gold": 0,
+    "pred": 0,
+    "confidence": 0.3,
+    "reasoning": "中等抽象度 + 现在时态 + 有应对措施，不符合反刍思维的核心特征",
+    "analysis": {
+      "keywords": [
+        "总感觉",
+        "总想着",
+        "总是"
+      ],
+      "time_orientation": "Present",
+      "abstraction": "Medium",
+      "analysis_summary": "用户表达了对当前经济状况的担忧，涉及具体事件和抽象烦恼，并采取了应对措施。"
+    },
+    "meta": {
+      "domain": "future",
+      "persona": "emotionally_stable",
+      "pattern_id": null,
+      "method": "persona"
+    }
+  }
+]

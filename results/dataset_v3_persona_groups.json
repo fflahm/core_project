@@ -1,0 +1,97 @@
+{
+  "domain": {
+    "study": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "n_samples": 8,
+      "positive": 2,
+      "negative": 6
+    },
+    "social": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "n_samples": 8,
+      "positive": 2,
+      "negative": 6
+    },
+    "self": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "auc": 0.9166666666666666,
+      "n_samples": 8,
+      "positive": 2,
+      "negative": 6
+    },
+    "present": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "n_samples": 8,
+      "positive": 2,
+      "negative": 6
+    },
+    "past": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "auc": 1.0,
+      "n_samples": 8,
+      "positive": 2,
+      "negative": 6
+    },
+    "future": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "n_samples": 8,
+      "positive": 2,
+      "negative": 6
+    }
+  },
+  "persona": {
+    "rumination_prone": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1": 0.9565217391304348,
+      "auc": NaN,
+      "n_samples": 12,
+      "positive": 12,
+      "negative": 0
+    },
+    "anxious_but_functional": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": NaN,
+      "n_samples": 12,
+      "positive": 0,
+      "negative": 12
+    },
+    "reflective": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": NaN,
+      "n_samples": 12,
+      "positive": 0,
+      "negative": 12
+    },
+    "emotionally_stable": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": NaN,
+      "n_samples": 12,
+      "positive": 0,
+      "negative": 12
+    }
+  },
+  "pattern": {}
+}
